@@ -51,7 +51,7 @@ class GameMain extends Phaser.Scene {
         let moveDown = 0;
 
         if (this.input.gamepad.total) {
-            const gamepad = this.input.gamepad.gamepads[0];
+            const gamepad = this.input.gamepad.gamepads[1];
             const yAxis = gamepad.axes[1].getValue();
             moveUp = yAxis;
         }
@@ -71,7 +71,7 @@ class GameMain extends Phaser.Scene {
         let moveDown = 0;
 
         if (this.input.gamepad.total) {
-            const gamepad = this.input.gamepad.gamepads[1];
+            const gamepad = this.input.gamepad.gamepads[0];
             const yAxis = gamepad.axes[1].getValue();
             moveUp = yAxis;
         }
