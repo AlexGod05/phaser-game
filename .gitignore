@@ -1,0 +1,25 @@
+# Node.js dependencies
+node_modules/
+
+# Dependency directories
+lib/
+vendor/
+bower_components/
+
+# Distribution directories
+dist/
+build/
+out/
+
+# IDE or editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS or temporary files
+.DS_Store
+Thumbs.db
